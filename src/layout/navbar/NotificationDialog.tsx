@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function NotificationDialog() {
   return (
     <div
@@ -13,9 +15,11 @@ export default function NotificationDialog() {
           className="flex px-4 py-3 border-b hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
         >
           <div className="flex-shrink-0">
-            <img
-              className="rounded-full w-11 h-11"
-              src={"images/users/bonnie-green.png"}
+            <Image
+              width={100}
+              height={100}
+              className="rounded-full w-11 h-11  object-cover"
+              src={"/man.jpg"}
               alt="Jese image"
             />
             <div className="absolute flex items-center justify-center w-5 h-5 ml-6 -mt-5 border border-white rounded-full bg-primary-700 dark:border-gray-700">
@@ -32,11 +36,11 @@ export default function NotificationDialog() {
           </div>
           <div className="w-full pl-3">
             <div className="text-gray-500 font-normal text-sm mb-1.5 dark:text-gray-400">
-              New message from{" "}
+              New message from
               <span className="font-semibold text-gray-900 dark:text-white">
                 Bonnie Green
               </span>
-              : "Hey, what's up? All set for the presentation?"
+              : Hey, what&apos;s up? All set for the presentation?
             </div>
             <div className="text-xs font-medium text-primary-700 dark:text-primary-400">
               a few moments ago
@@ -48,9 +52,11 @@ export default function NotificationDialog() {
           className="flex px-4 py-3 border-b hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
         >
           <div className="flex-shrink-0">
-            <img
-              className="rounded-full w-11 h-11"
-              src={"images/users/jese-leos.png"}
+            <Image
+              width={100}
+              height={100}
+              className="rounded-full w-11 h-11  object-cover"
+              src={"/man.jpg"}
               alt="Jese image"
             />
             <div className="absolute flex items-center justify-center w-5 h-5 ml-6 -mt-5 bg-gray-900 border border-white rounded-full dark:border-gray-700">
@@ -68,11 +74,11 @@ export default function NotificationDialog() {
             <div className="text-gray-500 font-normal text-sm mb-1.5 dark:text-gray-400">
               <span className="font-semibold text-gray-900 dark:text-white">
                 Jese leos
-              </span>{" "}
-              and{" "}
+              </span>
+              and
               <span className="font-medium text-gray-900 dark:text-white">
                 5 others
-              </span>{" "}
+              </span>
               started following you.
             </div>
             <div className="text-xs font-medium text-primary-700 dark:text-primary-400">
@@ -85,9 +91,11 @@ export default function NotificationDialog() {
           className="flex px-4 py-3 border-b hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
         >
           <div className="flex-shrink-0">
-            <img
-              className="rounded-full w-11 h-11"
-              src={"images/users/joseph-mcfall.png"}
+            <Image
+              width={100}
+              height={100}
+              className="rounded-full w-11 h-11  object-cover"
+              src={"/man.jpg"}
               alt="Joseph image"
             />
             <div className="absolute flex items-center justify-center w-5 h-5 ml-6 -mt-5 bg-red-600 border border-white rounded-full dark:border-gray-700">
@@ -109,11 +117,11 @@ export default function NotificationDialog() {
             <div className="text-gray-500 font-normal text-sm mb-1.5 dark:text-gray-400">
               <span className="font-semibold text-gray-900 dark:text-white">
                 Joseph Mcfall
-              </span>{" "}
-              and{" "}
+              </span>
+              and
               <span className="font-medium text-gray-900 dark:text-white">
                 141 others
-              </span>{" "}
+              </span>
               love your story. See it and view more stories.
             </div>
             <div className="text-xs font-medium text-primary-700 dark:text-primary-400">
@@ -126,9 +134,11 @@ export default function NotificationDialog() {
           className="flex px-4 py-3 border-b hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
         >
           <div className="flex-shrink-0">
-            <img
-              className="rounded-full w-11 h-11"
-              src={"images/users/leslie-livingston.png"}
+            <Image
+              width={100}
+              height={100}
+              className="rounded-full w-11 h-11  object-cover"
+              src={"/man.jpg"}
               alt="Leslie image"
             />
             <div className="absolute flex items-center justify-center w-5 h-5 ml-6 -mt-5 bg-green-400 border border-white rounded-full dark:border-gray-700">
@@ -150,11 +160,11 @@ export default function NotificationDialog() {
             <div className="text-gray-500 font-normal text-sm mb-1.5 dark:text-gray-400">
               <span className="font-semibold text-gray-900 dark:text-white">
                 Leslie Livingston
-              </span>{" "}
-              mentioned you in a comment:{" "}
+              </span>
+              mentioned you in a comment:
               <span className="font-medium text-primary-700 dark:text-primary-500">
                 @bonnie.green
-              </span>{" "}
+              </span>
               what do you say?
             </div>
             <div className="text-xs font-medium text-primary-700 dark:text-primary-400">
@@ -167,9 +177,11 @@ export default function NotificationDialog() {
           className="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-600"
         >
           <div className="flex-shrink-0">
-            <img
-              className="rounded-full w-11 h-11"
-              src={"images/users/robert-brown.png"}
+            <Image
+              width={100}
+              height={100}
+              className="rounded-full w-11 h-11  object-cover"
+              src={"/man.jpg"}
               alt="Robert image"
             />
             <div className="absolute flex items-center justify-center w-5 h-5 ml-6 -mt-5 bg-purple-500 border border-white rounded-full dark:border-gray-700">
@@ -187,7 +199,7 @@ export default function NotificationDialog() {
             <div className="text-gray-500 font-normal text-sm mb-1.5 dark:text-gray-400">
               <span className="font-semibold text-gray-900 dark:text-white">
                 Robert Brown
-              </span>{" "}
+              </span>
               posted a new video: Glassmorphism - learn how to implement the new
               design trend.
             </div>

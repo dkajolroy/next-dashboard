@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function AccountToggle() {
   function toogleUser() {
     var account_dialog = document.getElementById("dropdown-account-dialog");
@@ -15,10 +17,12 @@ export default function AccountToggle() {
       data-dropdown-toggle="dropdown-account-dialog"
     >
       <span className="sr-only">Open user menu</span>
-      <img
-        className="w-8 h-8 rounded-full"
-        src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
+      <Image
+        className="w-8 object-cover h-8 rounded-full"
+        src="/man.jpg"
         alt="user photo"
+        width={100}
+        height={100}
       />
     </button>
   );
