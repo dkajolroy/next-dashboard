@@ -12,7 +12,7 @@ export default function AccountDialog() {
           className="text-sm font-medium text-gray-900 truncate dark:text-gray-300"
           role="none"
         >
-          neil.sims@flowbite.com
+          shrikajol@gmail.com
         </p>
       </div>
       <ul className="py-1" role="none">
